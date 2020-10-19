@@ -19,7 +19,7 @@ $ brew install ffmpeg
 ```
 
 ### How to use this tool
-Copy all the video files you are having trouble with to the `input` directory and then run the following command:
+Create a directory named `input` and copy all the video files you are having trouble with there. Then run the following command:
 
 ```sh
 $ python main.py

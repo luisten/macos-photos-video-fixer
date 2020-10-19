@@ -3,6 +3,9 @@ import subprocess
 
 input_dir = './input'
 output_dir = './output'
+if not os.path.exists(output_dir):
+  os.mkdir(output_dir)
+
 video_files = os.listdir(input_dir)
 
 def getInputPath(filename):
